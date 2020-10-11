@@ -14,6 +14,8 @@
 		9438303D252A498900C16587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9438303C252A498900C16587 /* Assets.xcassets */; };
 		94383040252A498900C16587 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9438303F252A498900C16587 /* Preview Assets.xcassets */; };
 		94383043252A498900C16587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94383041252A498900C16587 /* LaunchScreen.storyboard */; };
+		9438304F252A682200C16587 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9438304E252A682200C16587 /* TaskViewModel.swift */; };
+		94C9DB4E252E7D64004A2084 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C9DB4D252E7D64004A2084 /* AddTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		9438303F252A498900C16587 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		94383042252A498900C16587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94383044252A498900C16587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9438304E252A682200C16587 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		94C9DB4D252E7D64004A2084 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		94383032252A498800C16587 /* Chester_TODO */ = {
 			isa = PBXGroup;
 			children = (
+				9438304D252A67ED00C16587 /* view models */,
+				9438304B252A4B7600C16587 /* model */,
 				94383033252A498800C16587 /* AppDelegate.swift */,
 				94383035252A498800C16587 /* SceneDelegate.swift */,
 				94383037252A498800C16587 /* ContentView.swift */,
@@ -66,6 +72,7 @@
 				94383044252A498900C16587 /* Info.plist */,
 				94383039252A498800C16587 /* Chester_TODO.xcdatamodeld */,
 				9438303E252A498900C16587 /* Preview Content */,
+				94C9DB4D252E7D64004A2084 /* AddTaskView.swift */,
 			);
 			path = Chester_TODO;
 			sourceTree = "<group>";
@@ -76,6 +83,21 @@
 				9438303F252A498900C16587 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9438304B252A4B7600C16587 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		9438304D252A67ED00C16587 /* view models */ = {
+			isa = PBXGroup;
+			children = (
+				9438304E252A682200C16587 /* TaskViewModel.swift */,
+			);
+			path = "view models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +173,8 @@
 				9438303B252A498800C16587 /* Chester_TODO.xcdatamodeld in Sources */,
 				94383034252A498800C16587 /* AppDelegate.swift in Sources */,
 				94383036252A498800C16587 /* SceneDelegate.swift in Sources */,
+				94C9DB4E252E7D64004A2084 /* AddTaskView.swift in Sources */,
+				9438304F252A682200C16587 /* TaskViewModel.swift in Sources */,
 				94383038252A498800C16587 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
